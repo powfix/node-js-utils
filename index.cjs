@@ -8,7 +8,7 @@ const UuidUtils = require('./dist/UuidUtils.cjs');
 Object.defineProperty(exports, "MACAddressUtils", {
 	enumerable: true,
 	get: function() {
-		return StringUtils;
+		return MACAddressUtils;
 	}
 });
 
