@@ -1,4 +1,5 @@
 import {v4} from "uuid";
+const v4 = require('uuid').v4;
 
 function binaryToString(binary) {
 	return Buffer.from(binary).toString('hex');
