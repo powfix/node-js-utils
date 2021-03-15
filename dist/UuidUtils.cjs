@@ -5,8 +5,9 @@ function binaryToString(binary) {
 }
 
 class UuidUtils {
-
-	static uuidv4 = () => v4().toUpperCase();
+	static uuidv4() {
+		return v4().toUpperCase();
+	}
 
 	static format(uuid) {
 		if (uuid.length === 32) {
