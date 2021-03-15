@@ -4,3 +4,5 @@ class MACAddressUtils {
 		return mac_address.replace(/[^\dA-z]/g, '');
 	}
 }
+
+module.exports = MACAddressUtils;
