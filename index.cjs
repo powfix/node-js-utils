@@ -1,8 +1,8 @@
 "use strict";
 
-const StringUtils = require('./dist/StringUtils.js');
-const RandomUtils = require('./dist/RandomUtils');
-const UuidUtils = require('./dist/UuidUtils.js');
+const StringUtils = require('./dist/StringUtils.cjs');
+const RandomUtils = require('./dist/RandomUtils.cjs');
+const UuidUtils = require('./dist/UuidUtils.cjs');
 
 Object.defineProperty(exports, "StringUtils", {
 	enumerable: true,
