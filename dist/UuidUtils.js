@@ -1,10 +1,10 @@
 import {v4} from "uuid";
 
-export function binaryToString(binary) {
+function binaryToString(binary) {
 	return Buffer.from(binary).toString('hex');
 }
 
-export class UuidUtils {
+class UuidUtils {
 
 	static uuidv4 = () => v4().toUpperCase();
 
@@ -49,4 +49,4 @@ export class UuidUtils {
 	}
 }
 
-console.log(UuidUtils.uuidv4());
+module.exports = UuidUtils;

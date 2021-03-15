@@ -1,4 +1,4 @@
-export class RandomUtils {
+class RandomUtils {
 	static randomNumber(min, max) {
 		min = Math.ceil(min);
 		max = Math.floor(max);
@@ -44,3 +44,5 @@ export class RandomUtils {
 		return strings.join('');
 	}
 }
+
+module.exports = RandomUtils;
