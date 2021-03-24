@@ -1,9 +1,9 @@
 "use strict";
 
-const MACAddressUtils = require('./dist/MACAddressUtils.cjs');
-const StringUtils = require('./dist/StringUtils.cjs');
-const RandomUtils = require('./dist/RandomUtils.cjs');
-const UuidUtils = require('./dist/UuidUtils.cjs');
+const MACAddressUtils = require('./dist/MACAddressUtils');
+const StringUtils = require('./dist/StringUtils');
+const RandomUtils = require('./dist/RandomUtils');
+const UuidUtils = require('./dist/UuidUtils');
 
 Object.defineProperty(exports, "MACAddressUtils", {
 	enumerable: true,
